@@ -1,5 +1,5 @@
-## Shopping List Web app
+## FizzFuzz game
 
-this project was implemented as an excersize to learn jquery
+Simple javascript [FizzBuzz game](http://en.wikipedia.org/wiki/Fizz_buzz)
 
-[App Demo](http://mhd1991.github.io/shopping_list_web_app/)
+[App Demo](http://mhd1991.github.io/fizzfuzz_game/)

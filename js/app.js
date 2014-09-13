@@ -14,9 +14,9 @@ $(document).ready(function() {
 				} else if ((i%3==0) && (i%5!=0)) {
 					$('div').append('<p class="fizz">fizz</p>');
 				} else if ((i%3!=0) && (i%5==0)) {
-					$('div').append('<p class="fuzz">fuzz</p>');
+					$('div').append('<p class="fuzz">buzz</p>');
 				} else if ((i%3==0) && (i%5==0)) {
-					$('div').append('<p class="fizzfuzz">fizzfuzz</p>');
+					$('div').append('<p class="fizzfuzz">fizzbuzz</p>');
 				}
 			}
 		}
