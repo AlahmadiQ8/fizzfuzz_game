@@ -1,0 +1,65 @@
+
+/*** set border sizing ***/
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box; /* Firefox, other Gecko */
+          box-sizing: border-box; /* Opera/IE 8+ */
+	padding: 0;
+	margin: 0;
+}
+
+
+/*** body background ***/
+body {
+	/*background-color: #2F3540;*/
+	text-align: center;
+}
+body div{
+	text-align:center;
+}
+
+label {
+	display: inline-block;
+	font: normal 36/44px "Oswald", sans-serif;
+	color: #666A73;
+	height: 44px;
+	font-size: 32px;
+	margin: 50px 10px;
+	width: 600px;
+}
+input {
+	display: inline-block;
+	font: normal 16px 'Coming Soon', cursive;
+	border: 1px solid #c6c9cc;
+	border-radius: 30px;
+	color: #888;
+	margin: 0 0 0 0;
+	padding: 5px 10px;
+	width: 80px;
+}
+input:focus {
+	border-radius: 30px;
+	box-shadow:inset 0 0 1px 1px #888;
+	outline: none;
+}
+
+p {
+	font: 24px;
+	width: 100px;
+	text-align: left;
+	margin: 10px auto;
+}
+
+.fizz, .fuzz, .fizzfuzz {
+	font-weight: bold;
+}
+
+.fizz {
+	color: #44accf;
+}
+.fuzz {
+	color: #b7d84b;
+}
+.fizzfuzz {
+	color: #ee3e64;
+}
